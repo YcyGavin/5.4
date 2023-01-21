@@ -23,15 +23,15 @@ function validateform(){
   var name2=document.myform.name2.value;  
     
   if (name==null || name==""){  
-    alert("Name can't be blank");  
+    alert("First name can't be blank");  
     return false;  
   }
   if (name1==null || name1==""){  
-    alert("Name can't be blank");  
+    alert("Last name can't be blank");  
     return false;  
   }
   if (name2==null || name2==""){  
-    alert("Name can't be blank");  
+    alert("Intention can't be blank");  
     return false;  
   }
   if(password.length<6){  
